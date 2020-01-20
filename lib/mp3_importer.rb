@@ -6,7 +6,6 @@ class MP3Importer
   end
   
   def files 
-    files = []
-    
+    files = Dir[@path]
   end
 end
