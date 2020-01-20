@@ -20,5 +20,8 @@ class Artist
     @songs << song
   end
   
-  def find_or_create_by_name
+  def find_or_create_by_name(name)
+    if artist.name 
+      
+  end
 end
